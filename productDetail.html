@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product detail</title>
+    <link rel="stylesheet" href="Tenant.css" />
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <div id="flex-container">
+        <a href="HomePage.html"><img class="logo" src="image/logo4.png" alt="logo"/></a>
+        <h1>HKCS Online</h1>
+        <h2>Everything you want in here</h2>
+    </div>
+    <div id="flex-container3">
+        <p id="btn">
+            <a href="Login.html"><button id="test">Login</button></a>
+            <a href="Register.html"><button id="test">Register</button></a>
+        </p>
+        <p id=add>
+            Search product name:
+            <input type="text" value="mask">
+            <button type="button" id="searchProduct"><img id="searchIcon" src="image/search.png" /></button>
+            Search by shop:
+            <select>
+                <optgroup>
+                <option>Sha Tin</option>
+                </optgroup>
+                </select>
+        </p>
+    </div>
+    <div class ="flex-container2">
+        <a href="HomePage.html">HomePage</a>
+        <div class="dropdown">
+            <button class="dropbtn">Tenant</button>
+            <div class="dropdown-content">
+              <a href="DeleteOrder.html">Delete Order</a>
+              <a href="Report.html">Report</a>
+              <div class="asd">
+              <a href="Report.html">Modify Good</a>
+                <div class="asdd">
+                  <a href="AddGood.html">Add Good</a>
+                  <a href="ViewEditGood.html">View/Edit Good</a>
+                </div>
+            </div>
+          </div>
+        </div>  
+        <a href="UpdateProfile.html">Update Profile</a>
+        <a href="CheckOrder.html">Check Order</a>
+     </div>
+
+    <div class=pDetail id="photo">
+        <img id="productPhoto" src="image/product2.jpg" />
+    </div>
+    <div class=pDetail>
+       <p id="productInformation">Product Details:<br>
+        1.Special shaped ear loops designed to provide extra comforts for children.<br>
+        2.Bacterial and particle filtration efficiency exceeds 95%.<br>
+        3.Used by doctors and healthcare professionals.<br>
+        4.Three layers protection.<br>
+        5.Hypoallergenic.<br>
+        <br>
+        Pieces per Container<br>
+        30s<br>
+        <br>
+        Product Size
+        898  x  898  x  898</p>
+        <div class=select>
+        <label >Quantity:</label>
+        <select >
+            <optgroup>
+            <option>1</option>
+            </optgroup>
+         </select>
+
+        <label id="shop">Pick-up Shop:</label>
+        <select >
+            <optgroup>
+            <option>Sha Tin</option>
+            </optgroup>
+        </select>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <input type="button" value="buy" id="btnBuy">
+    </div>
+
+</body>
+</html>

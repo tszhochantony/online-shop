@@ -1,0 +1,293 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(228, 228, 228);
+    font-family: sans-serif;
+    color: #000000;
+}
+p{
+    color: black;
+}
+
+h1 {
+    font-size:170%;
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+
+h2 {
+    font-size:80%;
+    display: flex ;
+    font-family: Bickley Script;
+    margin-top: 70px;
+    margin-left: -40px;
+  }
+
+#flex-container{
+    display: flex;
+    background-color: #6f8bc7;
+    color: white;
+  }
+  #add{
+    width: 850px;
+    margin:-60px 0px 35px -1000px;
+    color: white;
+    font-size: 25px;
+  }
+
+  #flex-container3{
+    background-color: #6f8bc7;
+    color: white;
+    margin: -90px 00px -10px 1500px;
+    height: 80px;
+    width: 300px;
+  }
+.logo{
+    width:100px;
+    height:100px;
+    margin-left: 3%;
+    }
+
+li, a{
+    font-weight: 500;
+    font-size: 25px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+.flex-container2{
+    justify-content: space-around;
+    display: flex;
+    /* background-image: linear-gradient(rgb(58, 58, 112) , lightblue); */
+    background-color: rgb(58, 58, 112);
+}
+
+.flex-container2 a{
+    margin: 7px;
+}
+.flex-container2 a:hover {
+    color: #26b3eb;
+}
+
+#test {
+    padding: 10px;
+    background-color: rgb(16, 70, 151);
+    font-size: 16px;
+    height: 43px;
+    width: 85px;
+    color: white;
+    border-width: 4px;
+    border-color: honeydew;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+
+#homepage{
+    font-size: 250%;
+    float: left;
+    margin: 10px;
+    margin-left: 30px;
+  }
+.marquee{
+    margin-left: 90px;
+    width:200px;
+    height:200px;
+}
+#search{
+    font-size: 30px;
+    padding-left: 30px;
+}
+#searchIcon{
+    width:30px;
+    height:30px;
+}
+#searchProduct{
+    background-color:transparent;
+    margin-right: 60px;
+    border: 0px;
+}
+.product{
+    margin-left: 2%;
+    font-size: 20px;
+    display: inline-block;
+}
+.productimg{
+    width:200px;
+    height:200px;
+}
+.pDetail{
+    margin: 2%;
+    display: block;
+    
+}
+#photo{
+    float: left;
+    border-radius: 25px ;
+    border: 5px black;
+    padding: 30px;
+    border-style: groove;
+}
+#productPhoto{
+    width:500px;
+    height:500px;
+}
+
+#productInformation{
+    font-size: 26px;
+    padding: 20px;
+}
+
+.select{
+    font-size: 20px;
+}
+
+#shop{
+    margin-left:3%;
+}
+#btnBuy{
+    font-size: 30px;
+    padding: 5px 10px;
+}
+
+.title{
+    font-size: 60px;
+    margin-left:230px;
+}
+.login2{
+    font-size: 20px;
+    margin-left:140px;
+}
+#btnLogin1{
+    font-size: 20px;
+    margin-left:230px;
+}
+#btnLogin2{
+    font-size: 20px;
+    margin-left:40px;
+}
+#btnLogin1,#btnLogin2{
+    border-width: 5px;
+    border-color: silver;
+    border-radius: 50px;
+    background-color: rgb(14, 54, 87);
+    color: rgb(247, 247, 247);
+}
+
+#imgLogo{
+    float: right;
+    margin-top: -370px;
+    margin-right: 20%;
+}
+
+#imgLogo2{
+    float: right;
+    margin-top: -489px;
+    margin-right: 20%;
+}
+
+#imgLogo3{
+    float: right;
+    margin-top: -768px;
+    margin-right: 19.3%;
+}
+#imgLogo4{
+    float: right;
+    margin-top: -333px;
+    margin-right: 19.3%;
+}
+.register{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.deleteOrder{
+    margin-left: 700px;
+}
+
+.dropbtn {
+    background-color: rgb(58, 58, 112);
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 5px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+  }
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #08affc;}
+
+.asd {
+    background-color:  #f1f1f1;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 5px;
+    border: none;
+  }
+  
+  
+  .asdd {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 200px;
+    margin-top: -50px;
+  }
+  
+  .asdd a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+  }
+  .asd:hover .asdd {display: block;}
+
+
+
+
+.viewRecord {
+    display: inline-block;
+    overflow: auto;
+    color:rgb(69, 126, 118);
+    margin-left: 220px;
+}
+
+th{
+    padding: 15px;
+    border-style: double;
+    border-color: rgb(41, 192, 172);
+}
+
+td{
+    padding: 15px;
+    border-style: double;
+    border-color: rgb(41, 192, 172);
+}
+
